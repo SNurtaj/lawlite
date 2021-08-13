@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/*===========================common-code-start========================*/
+/*====================================================================*/
+*{
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	box-sizing: border-box;
+	transition: .2s;
+}
+
+body{
+	font-family: font-family: 'Playfair Display', serif;
+	font-weight: normal;
+	font-size: 17px;
+}
+
+ol,ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+
+/*===========================common-code-end========================*/
+/*====================================================================*/
+
+
+/*========================topbar start===================*/
+.topNav{
+	 margin-left: 350px!important;
+}
+.nav-item{
+	color: #000;
+	font-size: 16px;
+	font-weight: 500;
+}
+/*========================topbar end===================*/
+
+/*========================hero-section start===================*/
+#heroArea{
+	background-color: #F9F8F9;
+}
+.heroText{}
+.heroText h1{
+	font-size: 69px;
+    font-weight: 800;
+    color: #094B72;
+    letter-spacing: 4px;
+    padding: 128px 0 30px 0px;
+}
+.heroText p{
+	color: #4F4F4F;
+    font-size: 22px;
+    letter-spacing: 0.5px;
+    line-height: 3rem;
+    font-weight: 500;
+    padding: 0px 0 10px 0;
+}
+.heroText .heroBtn{
+	background: #094B72;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 60px;
+}
+.heroText img{
+	padding: 50px 0 0 0
+}
+
+
+.heroImg{}
+.heroImg img{
+	width: 100%;
+}
+/*========================hero-section end===================*/
+
+/*========================terms-section start===================*/
+#termsSection{
+	background-color: #F2FCFF;
+	padding: 90px 0;
+}
+.termsText{
+	padding: 91px 0 0 0;
+}
+.termsText h3{
+	font-size: 50px;
+    line-height: 58px;
+    font-weight: 700;
+    padding: 0 0 40px;
+    letter-spacing: 1px;
+}
+.termsText p{
+	font-size: 21px;
+    line-height: 39px;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+}
+.services{
+   width: 100%;
+}
+
+.service{
+	padding: 12px;
+    margin: 5px;
+    width: 48%;
+    float: left;
+    height: 263px;
+    background: #F9F9F1;
+    box-shadow: 5;
+    box-shadow: 3px 4px 8px #e2bcde;
+}
+.service img{
+	padding: 10px 0 0 10px;
+}
+.service h4{
+	padding: 10px 0;
+    font-size: 22px;
+    font-weight: 700;
+}
+.service p{
+	text-align: justify;
+    font-size: 16px;
+    font-weight: 500;
+}
+/*========================terms-section end===================*/
+
+/*========================counter-section start===================*/
+#counterSection{
+	background: url(img/Patterns.png), #1282A6;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.mainCounter{
+	padding: 70px;
+}
+.mainCounter h2{
+	text-align: center;
+    padding: 0 0 8px 0;
+    font-size: 45px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    color: #fff;
+}
+.mainCounter p{
+	text-align: center;
+    color: #fff;
+    font-size: 17px;
+}
+.counters{
+	display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 15px;
+}
+.counter{
+}
+.counter h3{
+	color: #fff;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 800;
+}
+.counter p{
+	text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+/*========================counter-section end===================*/
+
+/*========================client-section start===================*/
+#clientSection{
+	background: #F4FBFF;
+    padding: 30px 0;
+}
+.mainClient{}
+.mainClient h2{
+	text-align: center;
+    padding-bottom: 30px;
+    font-size: 40px;
+    font-weight: 700;
+}
+.clients{
+	display: flex;
+	justify-content: space-around;
+	position: relative;
+}
+.client{
+	/*width: 45%;*/
+
+    /*height: 250px;*/
+    background: #d3d9dc;
+    position: relative;
+    border-radius: 6px;
+    box-shadow: 1px 1px 5px #000;
+    margin: 15px;
+    padding: 25px;
+}
+.shap{
+	position: absolute;
+    display: block;
+    border: 14px solid transparent;
+    height: 0;
+    width: 0;
+    border-top-color: #D3D9DC;
+    left: 50%;
+    bottom: -28px;
+    transform: translate(-50%);
+
+}
+.client h5{
+	text-align: center;
+    padding: 20px 0 10px 0;
+    font-size: 26px;
+    font-weight: 800;
+}
+.client p{
+	padding: 17px;
+    text-align: justify;
+    font-size: 16px;
+    color: #635959;
+    /*margin-bottom: 30px;*/
+}
+.profile{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+.profileLogo{
+    padding-right: 19px;
+}
+.profileLogo img{}
+.profileTitle{}
+.profileTitle h6{
+    font-weight: 800;
+}
+.profileTitle p{
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.main_client{
+	
+}
+
+/*========================client-section end===================*/
+
+/*========================about-section start===================*/
+
+#aboutSection{
+    padding: 45px 0;
+}
+
+.aboutLeft{}
+.aboutLeft h3{
+    font-size: 47px;
+    font-weight: 800;
+    padding-bottom: 20px;
+    padding-top: 35px;
+}
+.aboutLeft p{
+    font-size: 18px;
+    line-height: 35px;
+    font-weight: 600;
+}
+.aboutLeft a{
+    background: #0F6E8C;
+    color: #fff;
+    font-size: 17px;
+    font-weight: bold
+}
+.aboutRight{}
+.aboutRight img{}
+
+/*========================about-section end===================*/
+
+
+/*===========footerSection=================*/
+
+#footerSection{
+    background-color: #0F6E8C;
+    padding-top: 30px;
+}
+
+.mainFooter{}
+
+.footerimg{}
+.footerimg img{}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
